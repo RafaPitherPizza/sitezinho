@@ -7,6 +7,10 @@
   * {
       font-family: "Archivo Black";
   }
+
+  div {
+    box-sizing: border-box;
+  }
   
   #title {
     height: 170px;
@@ -37,7 +41,8 @@
       border-left: 15px;
       border-right: 15px;
       border-style: solid;
-      border-color: #111111
+      border-color: #111111;
+      margin: 100px solid #111111;
   }
   
   #indice {
@@ -46,7 +51,7 @@
     border-left: 15px;
     border-right: 15px;
     border-style: solid;
-    border-color: #111111
+    border-color: #111111;
   }
   
   .titani {
@@ -55,7 +60,15 @@
     color: white;
     background-color: #3242a8;
     text-align: center;
-  
+  }
+
+  .titanimg {
+    width: auto;
+    height: auto;
+    color: white;
+    text-align: center;
+    border: 5px solid #111111;
+    background-color: #111111;
   }
   
   .corpot {
@@ -63,7 +76,7 @@
     width: auto;
     height: auto;
     text-align: justify;
-    border: 10px solid rgb(0, 0, 0, 0);
+    border: 50px solid rgb(0, 0, 0, 0);
   }
   
   #impretfel {
@@ -73,14 +86,48 @@
   
   .images {
     width: auto;
-    height: auto;
+    min-width: 100%;
+    max-width: 100%;
+    height: 525px;
+    height: min-content;
     text-align: right;
-    border: 5px solid #222222;
+    border: 5px solid #111111;
   }
   
-  #botaop {
+  .botao {
+    color: #FFFFFF;
+    background-color: #3242a8;
+    border: none;
+  }
+
+  .botao:hover {
+    background-color: #435bf4;
+  }
+
+  .botao:active {
+    background-color: #090d23;
+  }
+
+  .albotao {
     margin-left: auto;
     margin-right: 0;
-    background-color: #FFFFFF;
-    border: none;
+  }
+
+  .aldireita {
+    margin-right: 0px;
+    margin-left: 10px;
+  }
+
+  .estrcorpot {
+    border-top: 0px;
+    border-bottom: 7.5px solid #111111;
+    border-right: 0px;
+    border-left: 0px;
+  }
+
+  #vertimg {
+    background-color: #111111;
+    width: 710px;
+    height: auto;
+    text-align: center;
   }
