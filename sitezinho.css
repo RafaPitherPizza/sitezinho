@@ -123,8 +123,10 @@
   .pourra {
     width: 100%;
     height: 100%;
-    text-align: left;
+    text-align: center;
     background-color: #111111;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .images {
@@ -135,15 +137,15 @@
     background-color: #111111;
   }
 
-  .images > img {
-    width: 100%;
+  .pourra1 {
+    width: 74.8%;
     height: 100%;
     text-align: center;
+    background-color: #111111;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .pourra1 {
-    width: 100%;
-    height: 100%;
-    text-align: right;
-    background-color: #111111;
+  #caralho {
+    text-align: center;
   }
