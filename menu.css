@@ -1,0 +1,93 @@
+body {
+    background-color: #111111;
+}
+
+* {
+    font-family: Archivo Black;
+}
+
+.centralizar {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 125px;
+    margin-bottom: auto;
+}
+
+#Pretinho {
+    width: 350px;
+    
+    filter: grayscale(100%);
+
+    transition: 0.3s;
+}
+
+#Pretinho:hover {
+    filter: none;
+
+}
+
+#Louro {
+    width: 350px;
+    
+    filter: grayscale(100%);
+
+    transition: 0.3s;
+}
+
+#Louro:hover {
+    filter: none;
+}
+
+#Bolota {
+    width: 350px;
+   
+    filter: grayscale(100%);
+
+    transition: 0.3s;
+}
+
+#Bolota:hover {
+    filter: none;
+}
+
+.borda {
+    border: 5px solid #3242a8;
+    background-color: #3242a8;
+    transition: 0.3s;
+}
+
+.borda:hover {
+    transform: scale(1.1);
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#title {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -90px;
+    font-size: 30px;
+}
+
+.albotao {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    transition: 0.3s;
+    
+    
+  }
+
+.botao {
+    bottom: 0px;
+    background-color: #111111;
+    color: #ffffff;
+    transition: 0.3s;
+    width: 200px;
+   
+}
+
+.albotao:hover {
+    margin-top: 10px;
+}
