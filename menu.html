@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu Sitezinho</title>
+    <title>Menu</title>
+    <link rel="icon" type="png" href="Logo Petza-01.png">
     <link rel="stylesheet" href="menu.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,23 +15,23 @@
 <body>
     <table class="centralizar">
        <tr>
-        <div id="title"><h1>SITEZINHO<br><h1></div>
+        <div id="title"><h1 class="inicio">PETZA<br><h1></div>
        </tr>
             <td>
                 <div>
-                    <div class="borda"> <a href=""><img src="Pretinho.jpg" alt="Pretinho" id="Pretinho"></a>
+                    <div class="borda"> <a href="pretinho.html"><img src="Pretinho.jpg" alt="Pretinho" id="Pretinho"></a>
                     </div>
                 </div>
             </td>
             <td>    
                 <div>
-                    <div class="borda"> <a href=""><img src="Louro.jpg" alt="Louro" id="Louro"></a>
+                    <div class="borda"> <a href="louro.html"><img src="Louro.jpg" alt="Louro" id="Louro"></a>
                     </div>
                 </div>
             </td>
             <td>    
                 <div>
-                    <div class="borda"> <a href=""><img src="Bolota.jpg" alt="Bolota" id="Bolota"></a>
+                    <div class="borda"> <a href="bolota.html"><img src="Bolota.jpg" alt="Bolota" id="Bolota"></a>
                     </div>
                 </div>
             </td>
@@ -43,5 +44,11 @@
             </td>
         </tr>
     </table>
+    <script>
+        // Quando a página é carregada, adiciona a classe "show" ao elemento
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelector(".inicio").classList.add("show");
+        });
+    </script>
 </body>
 </html>

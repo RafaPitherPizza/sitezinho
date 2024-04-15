@@ -23,7 +23,7 @@ body {
 
 #Pretinho:hover {
     filter: none;
-
+    
 }
 
 #Louro {
@@ -50,6 +50,50 @@ body {
     filter: none;
 }
 
+#title {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -90px;
+    font-size: 30px;
+}
+
+.botao {
+    bottom: 0px;
+    background-color: #111111;
+    color: #ffffff;
+    transition: 0.3s;
+    width: 200px;
+    border: 2px solid #ffffff;
+}
+
+
+/*Botao*/
+.albotao {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    transition: 0.3s;
+  }
+
+.albotao:hover {
+    margin-top: 25px;
+    box-shadow: 0px 0px 50px #3242a8;
+}
+
+.albotao:active {
+    background-color: #ffffff;
+    color: #111111;
+    border: 2px solid #111111;
+}
+
+.botao:active {
+    background-color: #ffffff;
+    color: #111111;
+    border: 2px solid #111111;
+}
+
+/*BORDA*/
 .borda {
     border: 5px solid #3242a8;
     background-color: #3242a8;
@@ -60,34 +104,16 @@ body {
     transform: scale(1.1);
     margin-right: 50px;
     margin-left: 50px;
+    box-shadow: 0px 0px 50px #3242a8;
 }
 
-#title {
-    color: #ffffff;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: -90px;
-    font-size: 30px;
+.inicio {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
 }
 
-.albotao {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    transition: 0.3s;
-    
-    
-  }
-
-.botao {
-    bottom: 0px;
-    background-color: #111111;
-    color: #ffffff;
-    transition: 0.3s;
-    width: 200px;
-   
-}
-
-.albotao:hover {
-    margin-top: 10px;
+.inicio.show {
+    opacity: 1;
+    transform: translateY(0);
 }
